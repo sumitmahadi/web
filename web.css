@@ -220,23 +220,58 @@ transform: scale(1.3); /* Zoom-in */
 .icons:hover {
 color: #ff0000; /* Change color on hover */
 }
-               /* Expanded About Section */
-        #about {
-            padding: 80px 20px;
-            background: #fff;
-        }
-        #about h2 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
-            border-bottom: 2px solid teal;
-            display: inline-block;
-            padding-bottom: 10px;
-        }
-        #about p {
-            max-width: 800px;
-            margin: 0 auto;
-            line-height: 1.8;
-            font-size: 1.1rem;
-            color: #555;
-        }
+           /* Expanded About Section */
+#about {
+    padding: 80px 20px;
+    background: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid teal;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.about-details {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.about-details h3 {
+    font-size: 1.8rem;
+    color: teal;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.about-list li {
+    font-size: 1.1rem;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 8px auto;
+    max-width: 400px;
+    border-radius: 5px;
+}
