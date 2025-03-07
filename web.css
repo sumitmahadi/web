@@ -152,10 +152,10 @@ padding-top: 2px;
     }
 
     .overlay {
-        display: none !important;
+        display: none ! important;
     }
 }
-/logo section/
+/*logo section*/
  .logo-section {
     text-align: center;
     padding: 2rem 1rem;
