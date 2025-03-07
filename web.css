@@ -330,3 +330,53 @@ form button {
 form button:hover {
     background: #ff6600;
 }
+
+/* Enhanced Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+footer p {
+    margin: 10px 0;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: left;
+}
+.footer-section h3 {
+    color: #ff9800;
+    margin-bottom: 1rem;
+}
+/* Responsive Design */
+@media (min-width: 768px) {
+.hamburger {
+display: none;
+}
+
+.nav-menu {
+position: relative;
+left: 0;
+width: auto;
+height: auto;
+background-color: transparent;
+}
+
+.nav-menu ul {
+display: flex;
+justify-content: center;
+}
+
+.nav-menu ul li {
+margin: 0 15px;
+}
+
+.service-box {
+width: 30%;
+}
+}
