@@ -275,3 +275,58 @@ color: #ff0000; /* Change color on hover */
     max-width: 400px;
     border-radius: 5px;
 }
+
+/* Improved Contact Section */
+#contact {
+    padding: 80px 20px;
+    background: #007bff;
+    color: white;
+    text-align: center;
+}
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+#leadForm {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+form fieldset {
+    border: none;
+    padding: 0;
+}
+form legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+form input, form textarea, form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+form input, form textarea {
+    background: white;
+    color: black;
+}
+form button {
+    background: #ff9800;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+form button:hover {
+    background: #ff6600;
+}
